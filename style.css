@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #ECE9FD;
+
+    font-family: 'Epilogue', sans-serif;
+}
+
+.page {
+    width: 37.5rem;
+    margin: 6.3rem auto;
+}
+
+section {
+    width: 32.9rem;
+}
+
+.title {
+    color: #7158EF;
+
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    margin: 1.5rem 0;
+
+    font-weight: 800;
+    font-size: 4.0rem;
+    line-height: 4.8rem;
+
+    color: #090039;
+}
+
+.description {
+
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+
+    color: rgba(10, 0, 57, 0.64);
+
+    margin-bottom: 3.2rem;
+}
+
+.link { 
+    
+    text-decoration: none;
+    color: #090039;
+
+    font-size: 1.6rem;
+    
+}
+
+.benefits {
+    margin-top: 7.2rem;
+}
+
+.benefits span {
+    font-size: 7.2rem;
+    font-weight: 800;
+    line-height: 8.0rem;
+    letter-spacing: -2px;
+    width: 3.4rem;
+}
+
+
+.benefits li {
+    width: 25.7rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 4.8rem;
+
+    list-style: none;
+    color: #090039;
+    font-size:2.4rem;
+    line-height: 3.2rem;
+    font-weight: bold;
+
+    gap: 3.0rem;
+}
+
+@media (min-width: 1000px) {
+
+    body {
+        margin: 0 auto;
+    }
+
+    .page {
+        width: 80rem;
+        height: 37.6rem;
+    }
+
+    main {
+        margin: 0;
+        width: 102.0rem;
+
+        display: flex;
+        gap: 12rem;
+    }
+
+    section {
+        width: 48rem;
+    }
+
+    .benefits {
+        width: 34rem;
+        margin-top: 5rem;
+    }
+    
+}
